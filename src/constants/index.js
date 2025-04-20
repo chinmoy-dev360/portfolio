@@ -29,9 +29,9 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
+  { value: 3, suffix: "+", label: "Years of Experience" },
+  { value: 6, suffix: "+", label: "Satisfied Clients" },
+  { value: 12, suffix: "+", label: "Completed Projects" },
   { value: 90, suffix: "%", label: "Client Retention Rate" },
 ];
 
@@ -147,35 +147,36 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review: "Chinmoy with strong logical thinking and problem-solving skills, significantly improving frontend performance for our clients. His work has been invaluable in delivering faster and more efficient user experiences",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
     title: "Frontend Developer",
     date: "January 2023 - Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
+      "Developed and maintained user-facing features for the client website using React, TypeScript, and Tailwind CSS.",
       "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
       "Optimized web applications for maximum speed and scalability.",
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    review: "Chinmoy’s contributions to OSB and Lloyds have been outstanding. He possesses exceptional skills in logical reasoning and system design, having solved numerous complex problems and delivered high-quality, reliable solutions",
+    imgPath: "/images/ps2.jpg",
+    logoPath: "/images/ps.png",
+    title: "Backend Developer",
+    date: "July 2023 - Present",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Working across a distributed system involving over 10 microservices using Spring Boot, Azure, MySQL, OOP, Kafka, Redis, Twilio, and GraphQL. Achieved 85%+ unit test coverage, ensuring high reliability and performance.",
+      "Collaborated closely with the Accounts team as a Senior Developer in the Savings Journey, achieving a 90%+ client success rate. Resolved several complex design issues and critical production bugs",
+      "Contributed to the Loan Payment Module, implementing Zero Trust security policies and fault-tolerant architecture. Applied multiple design patterns and followed best coding practices to ensure scalability and maintainability",
+      "Developed components for the Client Dashboard including features for distributed tracing, centralized logging, monitoring, database indexing, batch job orchestration, and webhook event creation for real-time integrations.",
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review: "Chinmoy’s work on client’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
     title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    date: "January 2023 - Present",
     responsibilities: [
       "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
       "Improved app performance and user experience through code optimization and testing.",
@@ -201,64 +202,74 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "Bhushan Rade",
+    designation: "Sr Platform Engineer",
+    mentions: "@bhushanrade",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
+      "Chinmoy is skilled in both feature development and defect resolution, consistently finding the root cause and providing effective solutions. He is knowledgeable and continuously learns new technologies",
+    imgPath: "/images/bhushan.jpg",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "Joseph Mohanti",
+    designation: "Agile Manager",
+    mentions: "@josephmohanti",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
+      "Chinmoy played a crucial role in ensuring the project's success by taking initiative, effectively managing their tasks, and collaborating seamlessly with team members. Their ability to anticipate potential challenges and proactively address them significantly contributed to our ability to meet tight deadlines and deliver outstanding results.",
+    imgPath: "/images/joseph.jpg",
   },
   {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
+    name: "Edwin Lawrance",
+    designation: "Sr Manager",
+    mentions: "@edwinlawrance",
     review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/client2.png",
+      "BIG SHOUT OUT to CHINMOY for swiftly thinking on his feet and resolving the design issue for migrated accounts in no time!",
+    imgPath: "/images/edwin.jpg",
   },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
+    name: "Rajakumar Rajendran",
+    designation: "Manager in Technology",
+    mentions: "@rajakumarrajendran",
     review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
+      "Chinmoy is outstanding when it comes to development. He has quickly adopted a wide range of skills and implemented them effectively despite having minimal experience. The way he works reflects the maturity of a senior engineer. He is a valuable asset to the company and holds tremendous potential to achieve great things in his career.",
+    imgPath: "/images/rajakumar.png",
   },
   {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
+    name: "Angshuman Sarma",
+    designation: "Sr Engineer",
+    mentions: "@angshumansarma",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
+      "Chinmoy's multitasking ability is unlike anything I have seen. He always keep tabs on new technologies while also ensuring that he doesn't get too swayed away from his current work , a key component of a good developer",
+    imgPath: "/images/angshuman.jpg",
   },
   {
-    name: "Albert Flores",
-    mentions: "@albertflores",
+    name: "Bishwaraj Paul",
+    designation: "Sr Engineer",
+    mentions: "@bishwarajpaul",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
+      "Chinmoy is an outstanding backend developer and problem solver. We studied together during our B.Tech and have worked on multiple projects over the last couple of years. Wishing him a great future ahead!",
+    imgPath: "/images/bishwaraj.jpg",
   },
 ];
 
 const socialImgs = [
   {
     name: "insta",
+    url : "https://www.google.com/",
     imgPath: "/images/insta.png",
   },
   {
     name: "fb",
+    url : "https://www.google.com/",
     imgPath: "/images/fb.png",
   },
   {
     name: "x",
+    url : "https://www.google.com/",
     imgPath: "/images/x.png",
   },
   {
     name: "linkedin",
+    url: "https://www.linkedin.com/in/chinmoy-talukdar-sde/",
     imgPath: "/images/linkedin.png",
   },
 ];
